@@ -1,0 +1,103 @@
+Recursion Questions:
+
+1. Recursion is when a function calls itself - it calls itself while it's
+defining itself. The same thing keeps happening after the base case is completed;
+the same thing keeps happening until every single iteration is completed. 
+
+2. A base case is necessary because it's a question that you know the answer to.
+
+
+Graphs:
+
+1. Store objects and their attributes and show relationships/connections 
+with other nodes, whether they are direct or not. 
+2. Graphs are different than trees because they contain loops.
+3. A process is good to model with a graph because you can show how each step is
+and will be related to the next. Sometimes, step cannot exist without another so
+dependencies can also be represented well. 
+
+Performance of Different Data Structures:
+
+Index
+    - Linked List
+        O(n)
+    - Doubly-Linked List
+        O(n)
+Search
+    - Linked List
+        O(n)
+    - Doubly-Linked List
+        O(n)
+Add(R)
+    - For All Structures
+        O(1)
+Add(L)
+    - Python List
+        O(n)
+    - Linked List
+        O(1)
+    - Deque
+        O(1)
+Pop(L)
+    - Python List
+        O(n)
+    - Linked List
+        O(1)
+    - Doubly Linked List
+        O(1)
+    - Queue (as an array)
+        O(n)
+    - Queue (LL or DLL)
+        O(1)
+    - Deque (as DLL)
+        O(1)
+Pop(R)
+    - Python List
+        O(1)
+    - Linked List
+        O(n)
+    - Doubly Linked List
+        O(1)
+    - Stack (as Array, LL, DLL)
+        O(1)
+    - Deque (as DLL)
+        O(1)
+Get
+    Set - O(1)
+    Binary Search Tree - O(log(n))
+    Tree - O(n)
+Add
+    Set - O(1)
+    Binary Search Tree - O(1)
+    Tree - O(1)
+
+Delete
+    Set - O(1)
+    Binary Search Tree - O(n)
+    Tree - O(1)
+Iterate
+    Set - O(n)
+    Binary Search Tree - O(1)
+    Tree - O(1)
+Memory
+    Set - Medium
+    Binary Search Tree - Good (better than Medium)
+    Tree - Good
+
+Sorting:
+
+1. Bubble Sort - classic sorting algorithm, where the largest # floats to the top/
+end of the list.
+2. Merge Sort - a super clever and fast that uses recursion, so it compares each adjacent elements and sorts them, and it keeps doing it until it reaches len(list) -1 element.
+3. Quick Sort - fastest sorting algorithm, where you pick a pivot, and using recursion you divide and conquer.
+
+
+Git Branching:
+
+1. For my project, if I wanna test an idea I can use git branching so I don't 
+screw up any of my already working code.
+2. A pull request is when you ask the owner of the repo to check your branch out and merge
+it to the master branch. It's a way to contribute code.
+
+
+
